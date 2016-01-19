@@ -1,0 +1,149 @@
+\documentclass[a4paper] {letter}
+
+\usepackage[left=0.5cm,top=1cm,right=0.5cm,bottom=1cm]{geometry}
+\usepackage[spanish]{babel}
+\usepackage[latin9]{inputenc}
+\usepackage{longtable,array}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{comment}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage{calc}
+\setlength\extrarowheight{3pt}
+\usepackage{draftwatermark}
+\SetWatermarkText{ALZAMOVI 2009 S.L.}
+\begin{document}
+%%%%DECLARANDO VARIABLES
+\newcommand {\numfac}{15/001\_001}
+\newcommand {\fechafac}{01/01/2015}
+\newcommand {\base}{551.19 \euro}
+\newcommand {\iva}{115.75 \euro}
+\newcommand {\total}{666.94 \euro}
+\newcommand {\reten}{104.73 \euro}
+\newcommand {\neto}{562.21 \euro}
+\thispagestyle{empty}
+
+\begin{longtable}{|c|c|c|l|c|c|c|}
+\hline
+%\centering\includegraphics[width=6cm, height=3cm]{aqui_tu_logo}
+\multicolumn{4}{|l|}{} & \multicolumn{3}{|c|}{\multirow{9}{*}{\centering\includegraphics[width=6.18cm, height=2.5cm]{aqui_tu_logo}}} \\
+\multicolumn{4}{|l|}{\Huge ALZAMOVI 2009 S.L.} & \multicolumn{3}{|l|}{}  \\
+\multicolumn{4}{|c|}{} & \multicolumn{3}{|l|}{}  \\
+\multicolumn{4}{|l|}{Calle tal de cual}  & \multicolumn{3}{|l|}{} \\
+\multicolumn{4}{|l|}{Población: Tu ciudad} & \multicolumn{3}{|c|}{}  \\
+\multicolumn{4}{|l|}{Provincia: Tu provincia} & \multicolumn{3}{|l|}{} \\
+\multicolumn{4}{|l|}{Cód.Postal: Tu C.P.} & \multicolumn{3}{|l|}{} \\
+\multicolumn{4}{|l|}{CIF: B-xx.xxx.xxx} & \multicolumn{3}{|l|}{} \\
+\multicolumn{4}{|l|}{} & \multicolumn{3}{|c|}{} \\
+\hline 
+\hline
+\hline
+\hline
+\hline
+\multicolumn{3}{|c|}{
+\begin{tabular}{l}
+%%CAMBIAR FECHA Y NÚMERO DE LA FACTURA
+FACTURA: \numfac \\
+FECHA..: \fechafac \\
+NIF.CLIENTE: yy.yyy.yyy - W
+\end{tabular}}
+&
+\multicolumn{4}{c|}{
+\begin{tabular}{l}
+Cliente: Nombre del cliente \\
+Dirección Cliente: dirección del cliente \\
+C.P.:  \\
+Población:   \\
+Provincia:
+\end{tabular}}
+\\
+\hline 
+
+\hline 
+\endhead
+
+% PIE FINAL ==========================================
+\hline \hline
+\multicolumn{3}{|c|}{
+\begin{tabular}{l}
+
+%%%CAMBIAR VENCIMIENTO
+\normalsize VTO. FACTURA: \\
+\normalsize \textbf{\fechafac}
+\end{tabular}}
+&
+\multicolumn{3}{r|}{
+\begin{tabular}{r}
+\normalsize BASE IMPONIBLE:\\
+
+\normalsize IVA (21 \%):  \\
+\normalsize TOTAL FACTURA: \\
+\normalsize RETENCIÓN (-19 \%) : \\
+\normalsize NETO:
+\end{tabular}}
+&
+\multicolumn{1}{r|}{
+\begin{tabular}{r}
+\normalsize  \base \\
+\normalsize \iva \\
+\normalsize \total \\
+\normalsize \reten \\
+\normalsize  \neto \\
+\end{tabular}}
+\\
+\hline 
+\endlastfoot
+
+% PIE PAGINA==========================================
+\multicolumn{7}{|r|}{\normalsize SUMA y SIGUE} \\
+\endfoot
+FECHA & Cód. Cliente & ARTÍCULO & DESCRIPCIÓN & CANTIDAD & PRECIO & IMPORTE \\
+\hline
+\fechafac & 015.999 & 10001  & Prestación de Servicios Profesionales & 01 & 551.19 \euro & 551.19 \euro \\
+%14.10.13 & 015.999 & 10002  & Productividad por gestión de cobros & 16 & 1.23 \euro & 23.23 \euro \\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+&&&&&&\\
+\end{longtable}
+\vfill
+\hrulefill
+\hrulefill
+\hrulefill
+
+
+\begin{tabular}{l  r}
+Banco: Banco Mare Nostrum & \textbf{ESkk tttt tttt tttt tttt} \\
+
+Banco: Banco Santander Central Hispano & \textbf{ESkk uuuu uuuu uuuu uuuu}\\
+
+Banco: Caja Rural de Granada  & \textbf{ESkk mmmm mmmm mmmm mmmm}\\
+
+\end{tabular}
+
+
+
+
+\end{document}
